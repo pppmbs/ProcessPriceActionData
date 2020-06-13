@@ -13,3 +13,4 @@ C:\Users\pppmb\source\repos\PreprocessPriceActionsData\CsvTest\obj\x64\Debug\net
 C:\Users\pppmb\source\repos\PreprocessPriceActionsData\CsvTest\obj\x64\Debug\netcoreapp3.1\ProcessPriceActionData.dll
 C:\Users\pppmb\source\repos\PreprocessPriceActionsData\CsvTest\obj\x64\Debug\netcoreapp3.1\ProcessPriceActionData.pdb
 C:\Users\pppmb\source\repos\PreprocessPriceActionsData\CsvTest\obj\x64\Debug\netcoreapp3.1\ProcessPriceActionData.genruntimeconfig.cache
+C:\Users\pppmb\source\repos\PreprocessPriceActionsData\CsvTest\obj\x64\Debug\netcoreapp3.1\ProcessPriceActionData.csprojAssemblyReference.cache

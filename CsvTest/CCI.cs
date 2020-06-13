@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AiTrader
+namespace ProcessPriceActionData
 {
     /// <summary>
     /// Commodity Channel Index (CCI)

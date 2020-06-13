@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AiTrader
+namespace ProcessPriceActionData
 {
     public class MACD : IndicatorCalculatorBase<MACDSerie>
     {

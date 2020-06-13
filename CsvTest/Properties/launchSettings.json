@@ -3,8 +3,8 @@
     "ProcessPriceActionData": {
       "commandName": "Executable",
       "executablePath": "C:\\Users\\pppmb\\source\\repos\\PreprocessPriceActionsData\\CsvTest\\bin\\x64\\Debug\\netcoreapp3.1\\ProcessPriceActionData.exe",
-      "commandLineArgs": "ES12-15.Last.csv",
-      "workingDirectory": "C:\\Users\\pppmb\\Bill Document\\NinjaTrader Historical Min Data\\2015\\ES12-15"
+      "commandLineArgs": "ES06-20.Last.txt",
+      "workingDirectory": "C:\\Users\\pppmb\\Bill Document\\NinjaTrader Historical Min Data\\2020\\ES06-20"
     }
   }
 }
