@@ -17,13 +17,13 @@ namespace AiTrader
 
         public String Time { get; set; }
 
-        public String Fraction { get; set; }
+        public String Open { get; set; }
 
-        public String Last { get; set; }
+        public String High { get; set; }
 
-        public String Bid { get; set; }
+        public String Low { get; set; }
 
-        public String Ask { get; set; }
+        public String Close { get; set; }
 
         public String Volume { get; set; }
 

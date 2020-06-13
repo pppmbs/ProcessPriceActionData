@@ -1,10 +1,10 @@
 {
   "profiles": {
-    "AiTrader": {
+    "ProcessPriceActionData": {
       "commandName": "Executable",
-      "executablePath": "C:\\Users\\pppmb\\source\\repos\\AiTrader\\CsvTest\\bin\\x64\\Debug\\netcoreapp3.1\\AiTrader.exe",
-      "commandLineArgs": "ES03-20.Last-1.txt.001.csv ES03-20.Last-1.txt.002.csv ES03-20.Last-1.txt.003.csv ES03-20.Last-1.txt.004.csv ES03-20.Last-1.txt.005.csv ES03-20.Last-1.txt.006.csv ES03-20.Last-1.txt.007.csv ES03-20.Last-1.txt.008.csv",
-      "workingDirectory": "C:\\Users\\pppmb\\Bill Document\\NinjaTrader Historical Data\\2020\\ES03-20"
+      "executablePath": "C:\\Users\\pppmb\\source\\repos\\PreprocessPriceActionsData\\CsvTest\\bin\\x64\\Debug\\netcoreapp3.1\\ProcessPriceActionData.exe",
+      "commandLineArgs": "ES12-15.Last.csv",
+      "workingDirectory": "C:\\Users\\pppmb\\Bill Document\\NinjaTrader Historical Min Data\\2015\\ES12-15"
     }
   }
 }

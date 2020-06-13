@@ -1,0 +1,16 @@
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\bin\x64\Debug\netcoreapp3.1\AiTrader.exe
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\bin\x64\Debug\netcoreapp3.1\AiTrader.deps.json
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\bin\x64\Debug\netcoreapp3.1\AiTrader.runtimeconfig.json
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\bin\x64\Debug\netcoreapp3.1\AiTrader.runtimeconfig.dev.json
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\bin\x64\Debug\netcoreapp3.1\AiTrader.dll
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\bin\x64\Debug\netcoreapp3.1\AiTrader.pdb
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\bin\x64\Debug\netcoreapp3.1\CsvHelper.dll
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\bin\x64\Debug\netcoreapp3.1\LumenWorks.Framework.IO.dll
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\obj\x64\Debug\netcoreapp3.1\AiTrader.AssemblyInfoInputs.cache
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\obj\x64\Debug\netcoreapp3.1\AiTrader.AssemblyInfo.cs
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\obj\x64\Debug\netcoreapp3.1\AiTrader.csproj.CoreCompileInputs.cache
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\obj\x64\Debug\netcoreapp3.1\AiTrader.csproj.CopyComplete
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\obj\x64\Debug\netcoreapp3.1\AiTrader.dll
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\obj\x64\Debug\netcoreapp3.1\AiTrader.pdb
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\obj\x64\Debug\netcoreapp3.1\AiTrader.genruntimeconfig.cache
+C:\Users\pppmb\source\repos\AiTrader\CsvTest\obj\x64\Debug\netcoreapp3.1\AiTrader.csprojAssemblyReference.cache

@@ -6,8 +6,8 @@ namespace AiTrader
 {
     public class BarRecord
     {
-        public string START_TIME { get; set; }
-        public string END_TIME { get; set; }
+        public string DATE { get; set; }
+        public string TIME { get; set; }
         public string OPEN_PRICE { get; set; }
         public string CLOSE_PRICE { get; set; }
         public string HIGH_PRICE { get; set; }

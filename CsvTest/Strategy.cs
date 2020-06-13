@@ -20,41 +20,18 @@ namespace AiTrader
     {
         static public void buildBarRecords(IEnumerable records, List<BarRecord> barRecords)
         {
-            int tickCount = 0;
-            int volCount = 0;
             BarRecord bar = new BarRecord();
             foreach (DataRecord record in records)
             {
-                if (tickCount == 0)
-                {
-                    bar.START_TIME = Convert.ToDouble(record.Time).ToString();
-                    bar.OPEN_PRICE = Convert.ToDouble(record.Last).ToString();
-                    bar.HIGH_PRICE = Convert.ToDouble(record.Last).ToString();
-                    bar.LOW_PRICE = Convert.ToDouble(record.Last).ToString();
-                }
-
-                if (tickCount == Constants.TickCount)
-                {
-                    bar.END_TIME = Convert.ToDouble(record.Time).ToString();
-                    bar.CLOSE_PRICE = Convert.ToDouble(record.Last).ToString();
-                    bar.TOTAL_VOLUME = volCount.ToString();
-                    tickCount = 0;
-                    volCount = 0;
-
-                    barRecords.Add(bar);
-                    bar = new BarRecord();
-                    continue;
-                }
-                double last = Convert.ToDouble(record.Last);
-                double low = Convert.ToDouble(bar.LOW_PRICE);
-                double high = Convert.ToDouble(bar.HIGH_PRICE);
-                if (last < low)
-                    bar.LOW_PRICE = Convert.ToDouble(record.Last).ToString();
-                if (last > high)
-                    bar.HIGH_PRICE = Convert.ToDouble(record.Last).ToString();
-
-                volCount += Int32.Parse(record.Volume);
-                tickCount++;
+                bar.DATE = record.Date;
+                bar.TIME = record.Time;
+                bar.OPEN_PRICE = record.Open;
+                bar.HIGH_PRICE = record.High;
+                bar.LOW_PRICE = record.Low;
+                bar.CLOSE_PRICE = record.Close;
+                bar.TOTAL_VOLUME = record.Volume;
+                barRecords.Add(bar);
+                bar = new BarRecord();
             }
         }
 
@@ -285,7 +262,7 @@ namespace AiTrader
                 {
                     using (var sr = new StreamReader(inFile))
                     {
-                        String outFile = Path.GetFileNameWithoutExtension(inFile) + "-bar.csv";
+                        String outFile = Path.GetFileNameWithoutExtension(inFile) + "-min-bar.csv";
                         using (var sw = new StreamWriter(outFile))
                         {
                             var reader = new CsvReader(sr, CultureInfo.InvariantCulture);

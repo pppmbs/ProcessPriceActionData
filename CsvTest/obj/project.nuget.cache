@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "DW4BT4z+UKucTzG9nO17lsJlpL6GA3zJUt9lJNBn842NJcIhaIGywK36vqJQ1S79mU4K5QFP+z8lu8CBb/InAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pppmb\\source\\repos\\PreprocessPriceActionsData\\CsvTest\\ProcessPriceActionData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pppmb\\.nuget\\packages\\csvhelper\\15.0.5\\csvhelper.15.0.5.nupkg.sha512",
+    "C:\\Users\\pppmb\\.nuget\\packages\\lumenworks.framework.io\\3.8.0\\lumenworks.framework.io.3.8.0.nupkg.sha512",
+    "C:\\Users\\pppmb\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LumenWorks.Framework.IO 3.8.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "LumenWorks.Framework.IO",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
